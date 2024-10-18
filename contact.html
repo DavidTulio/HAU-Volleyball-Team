@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HAU Volleyball Team</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" sizes="192x192" href="android-chrome-192x192.png">
+</head>
+<body>
+    
+    <!-- Navigation bar -->
+    <header class="navbar">
+        <div class="logo">
+            <img src="hau-logo.png" alt="HAU logo">
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+        <div class="hamburger" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="about-header">
+        <div class="about-hero-content">
+            <img src="teamlogo.png" alt="HAU Volleyball Logo" class="team-logo">
+            <div class="about-text-content">
+                <h1>HAU VOLLEYBALL TEAM</h1>
+                <a href="" class="join-now">JOIN NOW</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Content -->
+    <div class="contact-container">
+        <section class="contact-section">
+            <h2>CONTACT THE TEAM</h2>
+            <div class="form-background">
+                <form class="contact-form">
+                    <div class="form-left">
+                        <label for="your-name">YOUR NAME</label>
+                        <input type="text" id="your-name" placeholder="Enter your name">
+        
+                        <label for="email">YOUR EMAIL</label>
+                        <input type="email" id="email" placeholder="Enter your email">
+        
+                        <label for="address">ADDRESS</label>
+                        <input type="text" id="address" placeholder="Enter your address">
+                    </div>
+        
+                    <div class="form-right">
+                        <label for="player-name">PLAYER'S NAME</label>
+                        <input type="text" id="player-name" placeholder="Player's name">
+        
+                        <label for="comments">QUESTIONS OR COMMENTS?</label>
+                        <textarea id="comments" placeholder="Questions or Comments?"></textarea>
+                    </div>
+        
+                    <div class="send-button-container">
+                        <button type="submit" class="send-button">SEND</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    
+        <section class="address-section">
+            <h2>SCHOOL ADDRESS</h2>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3851.4596080946785!2d120.58743607578002!3d15.133083163816952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3396f24ec2f5a1f9%3A0x5e0af8a6aaab2282!2sHoly%20Angel%20University!5e0!3m2!1sen!2sph!4v1729247407430!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+    
+        <section class="gym-location">
+            <h2>IH-GYM LOCATION</h2>
+            <img src="ih gym map.jpg" alt="IH-GYM Location Map">
+        </section>
+    </div>
+    
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-section hau-team">
+                <h3>HAU VOLLEYBALL TEAM</h3>
+                <p>The HAU Volleyball Team is a dynamic group of student-athletes dedicated to excellence, teamwork, and sportsmanship.</p>
+            </div>
+
+            <div class="footer-section menu">
+                <h3>MENU</h3>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section contact">
+                <h3>CONTACT</h3>
+                <p><a href="contact.html">THE TEAM</a></p>
+            </div>
+
+            <div class="footer-section address">
+                <h3>ADDRESS</h3>
+                <p><a href="contact.html">📍LOCATION</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- External JS -->
+     <script src="script.js"></script>
+</body>
+</html>
